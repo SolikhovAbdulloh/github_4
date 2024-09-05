@@ -562,12 +562,24 @@ video {
   height: 52px;
 }
 
+.h-\[64px\] {
+  height: 64px;
+}
+
 .w-\[130px\] {
   width: 130px;
 }
 
+.w-\[202px\] {
+  width: 202px;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -580,6 +592,14 @@ video {
 
 .gap-\[16px\] {
   gap: 16px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-\[50px\] {
@@ -610,12 +630,45 @@ video {
   padding-bottom: 14px;
 }
 
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pl-\[24px\] {
+  padding-left: 24px;
+}
+
+.pr-\[16px\] {
+  padding-right: 16px;
+}
+
+.pt-\[15vh\] {
+  padding-top: 15vh;
+}
+
 .text-\[16px\] {
   font-size: 16px;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .font-normal {
   font-weight: 400;
+}
+
+.leading-\[150\%\] {
+  line-height: 150%;
 }
 
 .leading-\[175\%\] {
@@ -696,5 +749,124 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width:1300px){
+  .img_showcase img{
+    width: 400px;
+    height: 400px;
+  }
+
+  .heading h3{
+    font-size:57px;
+  }
+}
+
+@media (max-width:1074px){
+  .img_showcase img{
+    width: 400px;
+    height: 400px;
+  }
+
+  .heading h3{
+    font-size:45px;
+  }
+
+  .heading p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:964px){
+  .img_showcase img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .heading h3{
+    font-size:35px;
+  }
+
+  .heading p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:755px){
+  .img_showcase img{
+    width: auto;
+    height: auto;
+  }
+
+  .showcase div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .heading{
+    order: 2;
+  }
+
+  .heading h3{
+    font-size:25;
+  }
+
+  .heading p{
+    font-size: 8px;
+  }
+}
+
+@media (max-width:1158px){
+  .fff img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .fff h3{
+    font-size: 30px;
+  }
+
+  .fff p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:929px){
+  .fff img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .fff h3{
+    font-size: 25px;
+  }
+
+  .fff p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:706px){
+  .fff img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .fff h3{
+    font-size: 35px;
+  }
+
+  .fff p{
+    font-size: 18px;
+  }
+
+  .aaa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
