@@ -562,12 +562,20 @@ video {
   height: 52px;
 }
 
+.h-\[59px\] {
+  height: 59px;
+}
+
 .h-\[64px\] {
   height: 64px;
 }
 
 .w-\[130px\] {
   width: 130px;
+}
+
+.w-\[146px\] {
+  width: 146px;
 }
 
 .w-\[202px\] {
@@ -620,6 +628,11 @@ video {
   background-color: rgb(13 13 43 / var(--tw-bg-opacity));
 }
 
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .px-\[32px\] {
   padding-left: 32px;
   padding-right: 32px;
@@ -635,6 +648,10 @@ video {
   padding-bottom: 16px;
 }
 
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
 .pl-\[24px\] {
   padding-left: 24px;
 }
@@ -647,8 +664,20 @@ video {
   padding-top: 15vh;
 }
 
+.pt-\[20vh\] {
+  padding-top: 20vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[40px\] {
@@ -868,5 +897,52 @@ button:hover{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+  }
+}
+
+@media (max-width:1350px){
+  .vvv img{
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width:1010px){
+  .should h3{
+    font-size: 30px;
+  }
+
+  .should p{
+    font-size: 14px;
+  }
+
+  .should button{
+    width: 130px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:700px){
+  .vvv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vvv img{
+    width: auto;
+  }
+
+  .should h3{
+    font-size: 49px;
+  }
+
+  .should p{
+    font-size: 15px;
   }
 }

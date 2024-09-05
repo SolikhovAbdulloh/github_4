@@ -159,3 +159,52 @@ button:hover{
     }
 
 }
+@media (max-width:1350px){
+   .vvv img{
+    width: 350px;
+    height: 350px;
+   }
+
+   
+}
+@media (max-width:1010px){
+
+    .should h3{
+        font-size: 30px;
+
+    }
+    .should p{
+        font-size: 14px;
+    }
+    .should button{
+        width: 130px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media (max-width:700px){
+
+    .vvv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vvv img{
+        width: auto;
+    }
+    .should h3{
+        font-size: 49px;
+
+    }
+    .should p{
+        font-size: 15px;
+    }
+    
+
+}
